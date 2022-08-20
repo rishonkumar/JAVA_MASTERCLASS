@@ -1,0 +1,34 @@
+
+CLASS
+Class is a basically a blueprint for a house, using the blueprint we can build as many house
+as we like based on those plans
+
+Each house you build (in other words INSTANTIATE using the new operator) is an
+object also know as an instance
+
+Each house you build has an address(a physical location). In other words if you
+want to tell someone where you live, you give them your address(prehaps written
+on a peice of paper). This is known as reference
+
+Keep in mind that in JAVA you have always have REFERENCES to an OBJECT in
+memory, there is no way to access an object directly everything is done using
+a reference
+
+SUPER is used to access/call the parent class members
+THIS is used to call the current class members. this is required when we have
+a parameter with the same name as an instance variable(field).
+
+METHOD OVERLOADING
+providing tow or more separate method in a class with same name but different parameter
+It reduce duplicated code
+JAVA developers refer as compile time polymorphism
+compiler decided which method is going to be called based on the method name,return ype and argument list
+
+METHOD OVERIDING
+Means defining a method in a child class that already exist in the parent class with same signature
+
+By extending the parent class the child class gets all the methods defined in the parent class
+(those mehtods are knows as derived methods)
+
+know as runtime polymorphism coz the method that is going to be called is decided at runtime by the
+JVM
