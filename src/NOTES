@@ -32,3 +32,15 @@ By extending the parent class the child class gets all the methods defined in th
 
 know as runtime polymorphism coz the method that is going to be called is decided at runtime by the
 JVM
+
+STATIC METHODS
+are declared using static modifier
+cant access instance methods and instance vairables directly
+We cant use this keyword
+Main is static methods
+
+INSTANCE METHODS
+belong to an instance of a class
+can access instance methods and variables directly
+can access static methods and variable directly
+To use instance method we have to instantiate the class first usually by using the NEW keyword
